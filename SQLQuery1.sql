@@ -35,3 +35,8 @@ select max(Total_Salary) as 'Maximum Salary' from Salary
 select avg(Total_Salary) as 'Avg Salary' from Salary
 
 select sum(Total_Salary) as 'Sum of Salary' from Salary
+
+
+exec sp_help 'dbo.Official_Details'
+
+alter table Personal_Details drop (PRIMARY KEY)
