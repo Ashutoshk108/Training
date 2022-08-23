@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .button{
+                background-color: purple;
+                color: black;
+                font-family: Arial;
+                font-size: 25px;
+            }
+            .btn{
+                padding-left: 30%;
+                padding-top: 50px;
+            }
+        </style>
+    </head>
+    <body style="background-color:aqua;">
+        <script>
+            
+
+            function display(collect){
+                document.write("Withdrawal successful!<br><br>");
+                collect();
+
+            }
+
+            function myfunction(){
+                document.write("Thank you for using our service!");
+            }
+            var x = function () {  
+                setTimeout(myfunction, 2000);
+                document.write("Collect your card!<br><br>");
+            };
+
+        </script>
+        <div class="btn">
+            <input class="button" type="button" value="Withdrawal" onclick="display(x);">
+        </div>
+        
+    </body>
+</html>

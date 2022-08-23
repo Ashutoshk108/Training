@@ -1,0 +1,25 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Gender</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let stu of student">
+        <td>{{stu.id}}</td>
+        <td>{{stu.name}}</td>
+        <td>{{stu.email}}</td>
+        <td>{{stu.gender}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <div *ngFor="let stu of student">
+    <span [ngStyle]="{'background-color':stu.gender==='male'?'green':'red'}">
+        Name:{{stu.name}},Gender:{{stu.gender}},Email:{{stu.email}}
+    </span>
+ </div>

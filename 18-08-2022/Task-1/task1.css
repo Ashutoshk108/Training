@@ -1,0 +1,39 @@
+
+header{
+    background-color: aqua;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+header *{
+    background-color: aqua;
+    display: inline;
+    justify-items: start;
+}
+header li{
+    margin: 20px;
+   
+}
+header li a{
+    color: black;
+    
+    
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30 px;
+
+   
+}
+*{
+    background-color: bisque;
+}

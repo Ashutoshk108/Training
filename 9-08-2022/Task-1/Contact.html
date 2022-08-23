@@ -1,0 +1,37 @@
+<html>
+<html>
+<body>
+
+<body bgcolor="aqua"></bgcolor>
+<center><h1><b>Contact Us</b></h1></center>
+<hr><hr>
+<b><center>
+    <h3>Email id:- abc@gmail.com</h3>
+    <h3>Mobile No.:- 1234567890</h3>
+    <h3>logix park</h3>
+    <h3></h3>Noida, India</h3>
+</center>
+</b>
+<hr>
+<hr>
+<h1>Get your Current location</h1>  
+<button onclick="getlocation()">Click me</button>  
+<div id="location"></div>  
+<script>  
+    var x= document.getElementById("location");  
+    function getlocation() {  
+        if(navigator.geolocation){  
+            navigator.geolocation.getCurrentPosition(showPosition)  
+          }  
+        else  
+        {  
+             alert("Sorry! your browser is not supporting")  
+         } }  
+       
+     function showPosition(position){  
+       var x = "Your current location is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " +    position.coords.longitude + ")";  
+                document.getElementById("location").innerHTML = x;  
+     }  
+</script>  
+</body>
+</html>
