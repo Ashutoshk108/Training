@@ -13,6 +13,7 @@ public class Main {
 		System.out.println("Enter 3 for Circle");
 		System.out.println("Enter any other Number to exit");
 		int choice=sc.nextInt();
+		sc.close();
 		if(choice==1) {
 			System.out.print("Enter value for side: ");
 			int side=sc.nextInt();
