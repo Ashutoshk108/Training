@@ -36,7 +36,7 @@ public class Main {
 			System.out.print("Enter value for side: ");
 			int side=sc.nextInt();
 			Hexagons obj=new Hexagons(side);
-			System.out.println("Area of Square: "+obj.calculateArea());
+			System.out.println("Area of Hexagon: "+obj.calculateArea());
 		}else {
 			System.out.println("Wrong choice");
 		}
