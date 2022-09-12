@@ -22,6 +22,7 @@ public class DeliveryTester {
 			Long runs=sc.nextLong();
 			obj.displayDeliveryDetails(runs);
 		}
+		sc.close();
 
 	}
 
