@@ -18,6 +18,7 @@ public class Matches {
 			scr.add(tempScr);
 			totalPnts+=scr.get(i);
 		}
+		sc.close();
 		avgPnts=(float)totalPnts/noOfMatches;
 		System.out.println("Total Points scored by the team: "+totalPnts);
 		System.out.println("Average point scored by the team: "+avgPnts);
