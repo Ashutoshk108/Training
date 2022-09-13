@@ -22,12 +22,21 @@ public class Accounts{
 	public void logIn() {
         Scanner sc = new Scanner(System.in);
         System.out.println("----Login Page----");
+<<<<<<< HEAD
         System.out.println("Enter your register mobile number");
         //long mobileNumber = sc.nextLong();
         long mobileNumber=1243565;
         System.out.println("Kidly verify your number by entering otp: ");
         //int otp = sc.nextInt();
         int otp=1234;
+=======
+        System.out.print("Enter your register mobile number");
+        long mobileNumber = sc.nextLong();
+        //long mobileNumber=1243565;
+        System.out.print("Kidly verify your number");
+        int otp = sc.nextInt();
+        //int otp=1234;
+>>>>>>> 958c67cf7860c034abb65506f638e0b253030012
         sc.close();
         System.out.println("Mobile number entered by user: "+mobileNumber);
         System.out.println("Otp entered by user: "+otp);
