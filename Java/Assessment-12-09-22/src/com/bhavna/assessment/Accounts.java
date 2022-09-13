@@ -7,7 +7,7 @@ public class Accounts{
 	public void register() {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("----Registration page----");
-		System.out.print("Enter your name:");
+		System.out.print("Enter your name: ");
 		String name=sc.next();
 		System.out.print("Enter your email id: ");
 		String email=sc.next();
@@ -22,13 +22,15 @@ public class Accounts{
 	public void logIn() {
         Scanner sc = new Scanner(System.in);
         System.out.println("----Login Page----");
-        System.out.print("Enter your register mobile number");
+        System.out.println("Enter your register mobile number");
         //long mobileNumber = sc.nextLong();
         long mobileNumber=1243565;
-        System.out.print("Kidly verify your number");
+        System.out.println("Kidly verify your number by entering otp: ");
         //int otp = sc.nextInt();
         int otp=1234;
         sc.close();
+        System.out.println("Mobile number entered by user: "+mobileNumber);
+        System.out.println("Otp entered by user: "+otp);
         System.out.print("\n\t Login Successful");
         
     }

@@ -3,14 +3,15 @@ package com.bhavna.assessment;
 import java.util.*;
 
 public class Restaurants{
+	
 	//method to search for the hotel using current location
 	public void searchHotels(double latitude, double longitude) {
 		int num=noOfHotels();
 		if(num<5) {
-			System.out.println("Checking within the radius of 2.5 km");
+			System.out.println("\nChecking within the radius of 2.5 km");
 
 		}else {
-			System.out.println("Checking within the radius of 1.5 km");
+			System.out.println("\nChecking within the radius of 1.5 km");
 			
 		}
 		display(num);
@@ -27,9 +28,20 @@ public class Restaurants{
 	}
 	
 	public void display(int n) {
-		System.out.println("Restaurants available in your area:-");
+		ArrayList<String> rest=new ArrayList<String>();
+		rest.add("KFC");
+		rest.add("Haldiram");
+		rest.add("Bikaner");
+		rest.add("Chawla");
+		rest.add("Bicano");
+		rest.add("McD");
+		rest.add("Burger King");
+		rest.add("Dominos");
+		rest.add("Pizza Point");
+		rest.add("Chai Vatika");
+		System.out.println("\nRestaurants available in your area:-");
 		for(int i=1;i<=n;i++) {
-			System.out.println("Restaurant "+i);
+			System.out.println(rest.get(i));
 		}
 	}
 
