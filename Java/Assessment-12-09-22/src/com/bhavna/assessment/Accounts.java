@@ -23,11 +23,11 @@ public class Accounts{
         Scanner sc = new Scanner(System.in);
         System.out.println("----Login Page----");
         System.out.print("Enter your register mobile number");
-        //long mobileNumber = sc.nextLong();
-        long mobileNumber=1243565;
+        long mobileNumber = sc.nextLong();
+        //long mobileNumber=1243565;
         System.out.print("Kidly verify your number");
-        //int otp = sc.nextInt();
-        int otp=1234;
+        int otp = sc.nextInt();
+        //int otp=1234;
         sc.close();
         System.out.print("\n\t Login Successful");
         
