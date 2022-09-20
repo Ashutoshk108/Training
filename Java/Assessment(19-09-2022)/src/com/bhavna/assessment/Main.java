@@ -42,7 +42,7 @@ public class Main {
 						System.out.println("It is equivalent to rs"+Referral.getPnts());
 					}
 					System.out.println("\n\n");
-					//System.out.prinlnt("User entered: "+option);
+					System.out.println("User entered: "+option);
 					option++;
 				}while(option!=5);
 				System.out.println("\n\n");

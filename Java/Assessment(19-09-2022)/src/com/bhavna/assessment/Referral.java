@@ -77,6 +77,13 @@ public class Referral implements Serializable {
 		}
 		
 	}
+	public void delete(String name) {
+		for(int i=0;i<referralLst.size();i++) {
+			if(referralLst.get(i).get(0)==name) {
+				referralLst.remove(i);
+			}
+		}
+	}
 	
 	public static void write(ArrayList<String> r) {
 		try {
