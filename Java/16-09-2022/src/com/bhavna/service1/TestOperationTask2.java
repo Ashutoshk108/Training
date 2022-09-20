@@ -29,7 +29,7 @@ class TestOperationTask2 {
 	}
 	
 	@ParameterizedTest
-	@CsvFileSource(resources="D:\\temp.csv")
+	@CsvFileSource(resources="/temp.csv")
 	@DisplayName("ParameterisedCsvFileSource")
 	public void testCheckCsvFileSourceValue(int num, boolean value) {
 		OperationTwo o1=new OperationTwo();
