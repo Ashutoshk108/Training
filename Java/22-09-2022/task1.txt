@@ -1,0 +1,40 @@
+Design database schema for blood bank management
+
+Donor 		|	Receiver 		| 	Request 	|	Blood Bank
+dId(Pk)			rId(pk) 			reqId(pk)		bldBankId(pk)
+dName			rName				Name			location
+City			City				location		Bld Grp
+bloodGrp		contact				medCond			qnty
+age			bloodGrp			rId(Fk)			best Before
+mediCond						qty
+
+
+Donor
+dId(pk)	dNam	City	bloodGrp	age	mediCond
+101	Ajay	Delhi	A+		20	healthy
+102	Axat	Noida	O+		21	healthy
+
+Donation History
+dID		date
+101		15/06/22
+102		01/08/22
+101		08/08/22
+
+Receiver
+rId(pk)	rName	City		contact		bloodGrp
+78	Aman	Faridabad	5467887		A-
+89	Abhi	Delhi		5789789		B+
+
+Request
+reqId(pk)	Name	location	Reason				Reqrd
+1		Aman	Faridabad	blood-loss			1
+2		Mahesh	Delhi		bleeding disorder		2
+3		Axat	Noida		injury				1
+
+Blood Bank
+bldBankId(pk)	location	Bld Grp		qnty		best before
+1		Delhi		A+		15		15/07/23
+2		Delhi		A-		10		15/10/22
+3		Delhi		B+		20		22/02/23
+4		Delhi		O+		8		13/06/23
+5		Delhi		O- 		12		29/12/22
