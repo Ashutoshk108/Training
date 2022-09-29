@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean id="persn" class="com.bhavna.coreSpring.autowiring.Person"
+		autowire="byName" scope="prototype">
+		<property name="name" value="Avinash" />
+		<property name="city" value="Yamuna Nagar" />
+		<property name="mobileNo">
+			<list>
+				<value>"645867436"</value>
+				<value>"795567436"</value>
+				<value>"985867436"</value>
+			</list>
+		</property>
+		<property name="vehicleNo">
+			<set>
+				<value>"1"</value>
+				<value>"2"</value>
+				<value>"3"</value>
+			</set>
+		</property>
+		<property name="yearQualification">
+			<map>
+				<entry key="2012" value="Graduation" />
+				<entry key="2014" value="Post-Graduation" />
+				<entry key="2019" value="PhD" />
+			</map>
+		</property>
+		<property name="company" ref="company"></property>
+	</bean>
+
+	<bean id="company"
+		class="com.bhavna.coreSpring.autowiring.Company">
+		<property name="companyName" value="Bhavna Corp" />
+		<property name="city" value="Noida" />
+	</bean>
+
+	<bean id="persn1" class="com.bhavna.coreSpring.autowiring.Person">
+		<property name="company">
+			<bean id="company"
+				class="com.bhavna.coreSpring.autowiring.Company">
+				<property name="companyName" value="Bhavna Corp" />
+				<property name="city" value="Noida" />
+			</bean>
+		</property>
+	</bean>
+
+</beans>
