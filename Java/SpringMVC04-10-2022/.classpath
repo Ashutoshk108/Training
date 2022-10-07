@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/commons-lang3-3.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/core-utils-4.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/jackson-datatype-jsr310-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/jackson-module-parameter-names-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-aop-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-beans-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-context-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-core-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-expression-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-jcl-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-mvc-4.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-web-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/spring-webmvc-5.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-aop-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-aop-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-aop-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-aspects-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-aspects-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-aspects-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-beans-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-beans-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-beans-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-context-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-context-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-context-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-context-support-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-context-support-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-context-support-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-core-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-core-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-core-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-expression-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-expression-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-expression-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-instrument-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-instrument-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-instrument-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-instrument-tomcat-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-instrument-tomcat-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-instrument-tomcat-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-web-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-web-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-webmvc-4.2.4.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-webmvc-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-webmvc-portlet-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-webmvc-portlet-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring MVC Jars/spring-webmvc-portlet-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/spring-aop-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/spring-beans-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/spring-context-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/spring-context-support-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/spring-core-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars/spring-expression-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-Core-Jars-Annotations/spring-aop-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/aether-api-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/aether-impl-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/aether-spi-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/aether-util-0.9.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/aether-util-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/antlr-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/asm-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/classworlds-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-chain-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-compress-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-digester-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-core-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-decoration-model-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-logging-api-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-module-fml-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-module-xhtml-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-sink-api-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/doxia-site-renderer-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/file-management-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/httpclient-4.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-aether-provider-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-artifact-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-artifact-transfer-0.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-common-artifact-filters-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-core-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-dependency-analyzer-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-dependency-plugin-3.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-dependency-tree-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-model-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-model-builder-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-plugin-api-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-reporting-api-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-reporting-impl-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-repository-metadata-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-settings-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-settings-builder-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-shared-io-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/maven-shared-utils-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-archiver-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-cipher-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-classworlds-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-container-default-1.0-alpha-30.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-i18n-1.0-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-interpolation-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-sec-dispatcher-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-utils-3.0.24.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/plexus-velocity-1.1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/sisu-guice-2.1.7-noaop.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/sisu-inject-bean-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/sisu-inject-plexus-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/snappy-0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/sslext-1.2-0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/struts-core-1.3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/struts-taglib-1.3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/struts-tiles-1.3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/velocity-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/velocity-tools-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/wagon-provider-api-1.0-alpha-6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Maven/xz-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Spring-MVC/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
