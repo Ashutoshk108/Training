@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/byte-buddy-1.12.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/framework-x-1.0-alpha-2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/hibernate-core-5.6.12.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/jpa-plugin-1.0-alpha-2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/paranamer-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/spring-jpa-2.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/asm-6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/bootstrap-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/config-api-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/config-api-runtime-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/connector-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/container-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/datasources-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/ee-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/elytron-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/ironjacamar-jdbc-1.4.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jandex-2.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/javax.el-impl-3.0.1-b08-jbossorg-1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-annotations-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-concurrency-api_1.0_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-connector-api_1.7_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-el-api_3.0_spec-1.0.9.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-interceptors-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-logging-3.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-modules-1.6.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jca-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/jpa-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/logging-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/meta-spi-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/naming-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/narayana-jts-idlj-5.5.30.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/openjdk-orb-8.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/security-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-api-1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-api-base-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-api-javaee-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-api-jboss-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-impl-base-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-impl-javaee-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-impl-jboss-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-descriptors-spi-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-impl-base-1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/shrinkwrap-spi-1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/spi-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/JPA_ALL/transactions-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
